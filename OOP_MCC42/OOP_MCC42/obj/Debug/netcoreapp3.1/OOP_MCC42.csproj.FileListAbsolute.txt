@@ -1,0 +1,13 @@
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\bin\Debug\netcoreapp3.1\OOP_MCC42.exe
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\bin\Debug\netcoreapp3.1\OOP_MCC42.deps.json
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\bin\Debug\netcoreapp3.1\OOP_MCC42.runtimeconfig.json
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\bin\Debug\netcoreapp3.1\OOP_MCC42.runtimeconfig.dev.json
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\bin\Debug\netcoreapp3.1\OOP_MCC42.dll
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\bin\Debug\netcoreapp3.1\OOP_MCC42.pdb
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\obj\Debug\netcoreapp3.1\OOP_MCC42.csprojAssemblyReference.cache
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\obj\Debug\netcoreapp3.1\OOP_MCC42.AssemblyInfoInputs.cache
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\obj\Debug\netcoreapp3.1\OOP_MCC42.AssemblyInfo.cs
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\obj\Debug\netcoreapp3.1\OOP_MCC42.csproj.CoreCompileInputs.cache
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\obj\Debug\netcoreapp3.1\OOP_MCC42.dll
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\obj\Debug\netcoreapp3.1\OOP_MCC42.pdb
+C:\RepoGithub\MCC\Day5\OOP_MCC42\OOP_MCC42\OOP_MCC42\obj\Debug\netcoreapp3.1\OOP_MCC42.genruntimeconfig.cache
