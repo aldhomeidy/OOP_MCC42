@@ -5,6 +5,14 @@ namespace OOP_MCC42
     class Program
     {
 
+        private double hasil;
+
+        public double GetSetHasil
+        {
+            get { return hasil; }
+            set { hasil = value; }
+        }
+
         static void Main(string[] args)
         {
             bool kondisi = true;
@@ -82,37 +90,49 @@ namespace OOP_MCC42
 
         private double sisi;
 
+        Program prog = new Program();
+
+
         public override void Luas()
         {
             Console.Write("Masukan panjang sisi persegi : ");
             sisi = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Luas Persegi = "+ sisi* sisi);
+            prog.GetSetHasil = sisi * sisi;
+            Console.WriteLine("Luas Persegi = "+ prog.GetSetHasil);
         }
     }
     class PersegiPanjang : BangunDatar
     {
         private double sisi1;
         private double sisi2;
+
+        Program prog = new Program();
+
         public override void Luas()
         {
             Console.Write("Masukan panjang sisi pertama : ");
             sisi1 = Convert.ToDouble(Console.ReadLine());
             Console.Write("Masukan panjang sisi kedua : ");
             sisi2 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Luas Persegi Panjang = " + sisi1 * sisi2);
+            prog.GetSetHasil = sisi1 * sisi2;
+            Console.WriteLine("Luas Persegi Panjang = " + prog.GetSetHasil);
         }
     }
     class Segitiga : BangunDatar
     {
         private double alas;
         private double tinggi;
+
+        Program prog = new Program();
+
         public override void Luas()
         {
             Console.Write("Masukan alas segitiga : ");
             alas = Convert.ToDouble(Console.ReadLine());
             Console.Write("Masukan tinggi segitiga : ");
             tinggi = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Luas Segitiga = " + alas * tinggi /2 );
+            prog.GetSetHasil = alas * tinggi / 2;
+            Console.WriteLine("Luas Segitiga = " + prog.GetSetHasil );
             //rumus luas segitiga = ½ × alas × tinggi
         }
     }
@@ -124,6 +144,9 @@ namespace OOP_MCC42
         private double hasil;
         private bool kondisi;
         private String pilihan;
+
+        Program prog = new Program();
+
         public override void Luas()
         {
             kondisi = true;
@@ -138,13 +161,13 @@ namespace OOP_MCC42
                 {
                     Console.Write("Masukan jari-jari lingkaran : ");
                     val = Convert.ToDouble(Console.ReadLine());
-                    hasil = phi * val * val;
+                    prog.GetSetHasil = phi * val * val;
                     kondisi = false;
                 }
                 else if (pilihan == "2") {
-                    Console.Write("Masukan jari-jari lingkaran : ");
+                    Console.Write("Masukan diameter lingkaran : ");
                     val = Convert.ToDouble(Console.ReadLine());
-                    hasil = phi * (val / 2) * (val / 2);
+                    prog.GetSetHasil = phi * (val / 2) * (val / 2);
                     kondisi = false;
                 }
                 else {
@@ -153,7 +176,7 @@ namespace OOP_MCC42
                 }
             }
 
-            Console.WriteLine("Luas Lingkaran = " + hasil);
+            Console.WriteLine("Luas Lingkaran = " + prog.GetSetHasil);
         }
      
     }
@@ -163,6 +186,9 @@ namespace OOP_MCC42
         private double sisi1;
         private double sisi2;
         private double tinggi;
+
+        Program prog = new Program();
+
         public override void Luas()
         {
             Console.Write("Masukan Panjang sisi sejajar pertama : ");
@@ -171,7 +197,8 @@ namespace OOP_MCC42
             sisi2 = Convert.ToDouble(Console.ReadLine());
             Console.Write("Masukan Tinggi : ");
             tinggi = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Luas Trapesium = " + (sisi1+sisi2)*tinggi/2);
+            prog.GetSetHasil = (sisi1 + sisi2) * tinggi / 2;
+            Console.WriteLine("Luas Trapesium = " + prog.GetSetHasil);
             //rumus luas trapesium = ½ × jumlah panjang sisi sejajar × tinggi
         }
     }
